@@ -32,12 +32,13 @@ Just get the messages from each sensor, including sensor_id, time_stamp, and pay
 -Manage the data from any sensors without packet loss or server crashes.
 
 **Models**
-1-sensor_id->UUID
-2-sensor_name
-3-sensor_location_point(GIS) [link model fields](https://docs.djangoproject.com/en/4.2/ref/contrib/gis/model-api/)
-4-Sensor_type
-5-payload_data (some keys:value)
-6-Thresholds_data(related payload_data)
+
+1. sensor_id->UUID
+2. sensor_name
+3 .sensor_location_point(GIS) [link model fields](https://docs.djangoproject.com/en/4.2/ref/contrib/gis/model-api/)
+4. Sensor_type
+5. payload_data (some keys:value)
+6. Thresholds_data(related payload_data)
 
 **Feature:**
 
@@ -46,4 +47,3 @@ Just get the messages from each sensor, including sensor_id, time_stamp, and pay
 3. ability to publish the result to another device via JSON
 4. ability to store all of the sense data(time series)
 5. Manage to get data with time intervals and detect modifications.
-
