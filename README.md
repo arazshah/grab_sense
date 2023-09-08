@@ -74,7 +74,7 @@ Just get the messages from each sensor, including sensor_id, time_stamp, and pay
    1. POST /S/grabber/{sid}/ - Send the data from specific sensor detect with sid
 4. Run Message Broker ability to handle high volumes of data, facilitate real-time communication
 
-![schema](https://github.com/arazshah/grab_sense/static/img/Grabber.png "schema")
+![schema](https://raw.githubusercontent.com/arazshah/grab_sense/master/static/img/Grabber.png "schema")
 
 **Schema:**
 
